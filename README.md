@@ -1,8 +1,8 @@
 # Tashas Hair Studio Website
 
 ## Student Information
-Name:
-Student Number:
+Name: Natasha Tsangadzaoma
+Student Number: ST10541042
 
 ## Project Overview
 This website was created for Tashas Hair Studio to provide an online presence and allow customers to learn about services and contact the salon.
@@ -23,4 +23,4 @@ This website was created for Tashas Hair Studio to provide an online presence an
 - Allow customer enquiries
 
 ## Developer
-Your Name
+Natasha Tsangadzaoma
