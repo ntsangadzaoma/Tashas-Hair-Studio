@@ -1,0 +1,243 @@
+/* =========================
+   DEFAULT WEBSITE STYLES
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff7f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   TYPOGRAPHY
+========================= */
+
+h1 {
+    font-size: 36px;
+    color: #c85a7c;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #a84b68;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 22px;
+    color: #a84b68;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+
+/* =========================
+   HEADER + NAVIGATION
+========================= */
+
+header {
+    background-color: #ffe3eb;
+    padding: 25px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #7d3050;
+    font-weight: bold;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+
+/* =========================
+   MAIN LAYOUT
+========================= */
+
+main {
+    width: 85%;
+    margin: 30px auto;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+
+/* =========================
+   IMAGE GALLERY
+========================= */
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* =========================
+   TABLE
+========================= */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #f7b7c9;
+    color: #fff;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #fff0f5;
+}
+
+
+/* =========================
+   FORMS
+========================= */
+
+form {
+    margin-top: 20px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #c85a7c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background-color: #ffe3eb;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+/* =========================
+   HOVER EFFECTS
+========================= */
+
+nav a:hover {
+    color: #d63384;
+}
+
+input[type="submit"]:hover {
+    background-color: #a63d63;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #c85a7c;
+    outline: none;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media screen and (max-width: 768px) {
+
+    main {
+        width: 95%;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .image-gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media screen and (max-width: 480px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    img {
+        width: 100%;
+    }
+}
